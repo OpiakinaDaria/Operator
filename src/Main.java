@@ -10,12 +10,15 @@ public class Main {
         bonus1 = donation1 / 100;
         int bonus2;
         bonus2 = donation2 / 100;
-        if (donation1 < 1000) { System.out.println (donation1 + balance);
-        }    else  { System.out.println (donation1 + balance + bonus1);
+        if (donation1 < 1000) {
+            System.out.println(donation1 + balance);
+        } else {
+            System.out.println(donation1 + balance + bonus1);
         }
         if (donation2 < 1000) {
             System.out.println(donation2 + balance);
-        }   else  { System.out.println (donation2 + balance + bonus2);
+        } else {
+            System.out.println(donation2 + balance + bonus2);
         }
         // Объявляете переменные для входных данных и
         // параметров программы: начального счёта,
